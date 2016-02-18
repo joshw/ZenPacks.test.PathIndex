@@ -1,0 +1,18 @@
+name: ZenPacks.test.PathIndex
+
+class_relationships:
+# Containing Relations
+- MyDevice 1:MC ManyComponent
+- MyDevice 1:MC OneComponent
+- OneComponent M:M ManyComponent
+
+classes:
+
+  MyDevice:
+    base: [zenpacklib.Device]
+
+  OneComponent:
+    base: [zenpacklib.Component]
+
+  ManyComponent:
+    base: [zenpacklib.Component]

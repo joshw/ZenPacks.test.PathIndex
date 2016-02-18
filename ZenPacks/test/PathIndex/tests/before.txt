@@ -1,0 +1,115 @@
+Before:
+
+
+[zenoss@jwilmes-dev tests]$ ./test_pathindex.py
+2016-02-12 22:52:09,615 INFO     Using DemoStorage
+2016-02-12 22:52:14,260 INFO     Running test cycle (number of components = 50)
+2016-02-12 22:52:14,310 INFO     Building 50 components (please wait..)
+2016-02-12 22:52:14,756 INFO     Running tests (3 times)..
+2016-02-12 22:52:14,757 INFO       Clearing existing relationships..
+2016-02-12 22:52:14,757 INFO       Setting up new relationships..
+2016-02-12 22:52:14,776 INFO       Running indexing test..
+2016-02-12 22:52:14,794 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:14,810 INFO       Finished.
+2016-02-12 22:52:14,812 INFO       Clearing existing relationships..
+2016-02-12 22:52:14,822 INFO       Setting up new relationships..
+2016-02-12 22:52:14,835 INFO       Running indexing test..
+2016-02-12 22:52:14,849 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:14,869 INFO       Finished.
+2016-02-12 22:52:14,870 INFO       Clearing existing relationships..
+2016-02-12 22:52:14,881 INFO       Setting up new relationships..
+2016-02-12 22:52:14,894 INFO       Running indexing test..
+2016-02-12 22:52:14,908 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:14,923 INFO       Finished.
+2016-02-12 22:52:14,924 INFO     Results: [0.03442692756652832, 0.0334780216217041, 0.029169082641601562]
+2016-02-12 22:52:14,924 INFO     Running test cycle (number of components = 500)
+2016-02-12 22:52:14,926 INFO       Deleting previous test device.
+2016-02-12 22:52:15,120 INFO     Building 500 components (please wait..)
+2016-02-12 22:52:19,682 INFO     Running tests (3 times)..
+2016-02-12 22:52:19,683 INFO       Clearing existing relationships..
+2016-02-12 22:52:19,684 INFO       Setting up new relationships..
+2016-02-12 22:52:19,998 INFO       Running indexing test..
+2016-02-12 22:52:20,171 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:20,350 INFO       Finished.
+2016-02-12 22:52:20,362 INFO       Clearing existing relationships..
+2016-02-12 22:52:20,466 INFO       Setting up new relationships..
+2016-02-12 22:52:20,718 INFO       Running indexing test..
+2016-02-12 22:52:20,846 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:21,022 INFO       Finished.
+2016-02-12 22:52:21,035 INFO       Clearing existing relationships..
+2016-02-12 22:52:21,136 INFO       Setting up new relationships..
+2016-02-12 22:52:21,396 INFO       Running indexing test..
+2016-02-12 22:52:21,536 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:21,720 INFO       Finished.
+2016-02-12 22:52:21,731 INFO     Results: [0.35230088233947754, 0.304279088973999, 0.32407307624816895]
+2016-02-12 22:52:21,732 INFO     Running test cycle (number of components = 1000)
+2016-02-12 22:52:21,733 INFO       Deleting previous test device.
+2016-02-12 22:52:23,300 INFO     Building 1000 components (please wait..)
+2016-02-12 22:52:32,303 INFO     Running tests (3 times)..
+2016-02-12 22:52:32,303 INFO       Clearing existing relationships..
+2016-02-12 22:52:32,303 INFO       Setting up new relationships..
+2016-02-12 22:52:33,176 INFO       Running indexing test..
+2016-02-12 22:52:33,496 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:33,940 INFO       Finished.
+2016-02-12 22:52:33,957 INFO       Clearing existing relationships..
+2016-02-12 22:52:34,168 INFO       Setting up new relationships..
+2016-02-12 22:52:34,931 INFO       Running indexing test..
+2016-02-12 22:52:35,193 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:35,630 INFO       Finished.
+2016-02-12 22:52:35,649 INFO       Clearing existing relationships..
+2016-02-12 22:52:35,855 INFO       Setting up new relationships..
+2016-02-12 22:52:36,610 INFO       Running indexing test..
+2016-02-12 22:52:36,884 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:52:37,317 INFO       Finished.
+2016-02-12 22:52:37,335 INFO     Results: [0.7639200687408447, 0.6991639137268066, 0.7074270248413086]
+2016-02-12 22:52:37,337 INFO     Running test cycle (number of components = 5000)
+2016-02-12 22:52:37,338 INFO       Deleting previous test device.
+2016-02-12 22:52:41,280 INFO     Building 5000 components (please wait..)
+2016-02-12 22:53:25,799 INFO     Running tests (3 times)..
+2016-02-12 22:53:25,800 INFO       Clearing existing relationships..
+2016-02-12 22:53:25,801 INFO       Setting up new relationships..
+2016-02-12 22:53:40,675 INFO       Running indexing test..
+2016-02-12 22:53:42,406 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:53:48,133 INFO       Finished.
+2016-02-12 22:53:48,194 INFO       Clearing existing relationships..
+2016-02-12 22:53:49,233 INFO       Setting up new relationships..
+2016-02-12 22:54:03,513 INFO       Running indexing test..
+2016-02-12 22:54:04,830 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:54:10,567 INFO       Finished.
+2016-02-12 22:54:10,639 INFO       Clearing existing relationships..
+2016-02-12 22:54:11,699 INFO       Setting up new relationships..
+2016-02-12 22:54:25,866 INFO       Running indexing test..
+2016-02-12 22:54:27,216 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:54:32,991 INFO       Finished.
+2016-02-12 22:54:33,061 INFO     Results: [7.458354949951172, 7.054811954498291, 7.125298023223877]
+2016-02-12 22:54:33,062 INFO     Running test cycle (number of components = 8000)
+2016-02-12 22:54:33,064 INFO       Deleting previous test device.
+2016-02-12 22:55:11,010 INFO     Building 8000 components (please wait..)
+2016-02-12 22:56:35,626 INFO     Running tests (3 times)..
+2016-02-12 22:56:35,626 INFO       Clearing existing relationships..
+2016-02-12 22:56:35,630 INFO       Setting up new relationships..
+2016-02-12 22:57:16,763 INFO       Running indexing test..
+2016-02-12 22:57:19,839 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:57:35,627 INFO       Finished.
+2016-02-12 22:57:35,791 INFO       Clearing existing relationships..
+2016-02-12 22:57:37,618 INFO       Setting up new relationships..
+2016-02-12 22:58:15,959 INFO       Running indexing test..
+2016-02-12 22:58:18,233 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:58:33,832 INFO       Finished.
+2016-02-12 22:58:34,012 INFO       Clearing existing relationships..
+2016-02-12 22:58:35,884 INFO       Setting up new relationships..
+2016-02-12 22:59:13,433 INFO       Running indexing test..
+2016-02-12 22:59:15,633 INFO       Finished indexing - Addding another and re-indexing.
+2016-02-12 22:59:29,817 INFO       Finished.
+2016-02-12 22:59:29,967 INFO     Results: [18.864255905151367, 17.872887134552002, 16.383941173553467]
+2016-02-12 22:59:29,973 INFO     
+[(50, [0.03442692756652832, 0.0334780216217041, 0.029169082641601562]),
+ (500, [0.35230088233947754, 0.304279088973999, 0.32407307624816895]),
+ (1000, [0.7639200687408447, 0.6991639137268066, 0.7074270248413086]),
+ (5000, [7.458354949951172, 7.054811954498291, 7.125298023223877]),
+ (8000, [18.864255905151367, 17.872887134552002, 16.383941173553467])]
+.
+----------------------------------------------------------------------
+Ran 1 test in 445.204s
+
+OK
